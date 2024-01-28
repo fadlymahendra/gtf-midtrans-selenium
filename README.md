@@ -6,8 +6,8 @@
 5. Before executing the tests, (Somehow) need to open the Chrome for Testing
 
 # Usage
-Clone the repository:
-```  ```
+Fork or clone the repository:
+``` git clone git@github.com:fadlymahendra/gtf-midtrans-selenium.git ```
 
 
 # Navigate to the project directory:
