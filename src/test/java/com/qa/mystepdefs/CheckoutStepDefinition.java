@@ -28,7 +28,6 @@ public class CheckoutStepDefinition {
         }
     }
 
-
     @Given("I am on the Midtrans home page")
     public void on_midtrans_page() {
         driver.get("https://demo.midtrans.com/");
@@ -37,13 +36,24 @@ public class CheckoutStepDefinition {
     }
 
     @When("I click on the buy button")
-    public void click_buy_button() {
+    public void clickOnBuy() {
         checkoutPage.clickBuy();
     }
 
     @When("I click on checkout button")
-    public void click_checkout_button() {
+    public void clickOnCheckout() {
         checkoutPage.clickCheckout();
+    }
+
+
+    @When("I click on Credit Debit Payment method")
+    public void clickPaymentMethod() {
+        checkoutPage.clickcreditDebitPayment();
+    }
+
+    @When("I input valid credit card information")
+    public void inputValidCard() {
+        checkoutPage.inputValidCard();
     }
 }
 

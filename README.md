@@ -1,7 +1,3 @@
-# Credit 
-This test framework is cloned from https://github.com/naveenanimation20/Cucumber7.xTestNGLatestPOC
-
-
 # Prerequisites
 Java 8 or higher
 Maven 3.x
@@ -34,3 +30,7 @@ Feel free to submit issues or pull requests if you find any bugs or have suggest
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for more information.
+
+# Credit 
+This test framework is cloned from https://github.com/naveenanimation20/Cucumber7.xTestNGLatestPOC
+
