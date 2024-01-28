@@ -1,6 +1,10 @@
 # Prerequisites
-Java 8 or higher
-Maven 3.x
+1. Java 8 or higher 
+2. Maven 3.x
+3. Use java JDK instead of JRE
+4. Download Chrome driver and Chrome for Testing 121 version
+5. Before execute the tests, (Somehow) need to gopen the Chrome for Testing
+
 
 # Project Structure
 ![Screenshot 2023-03-28 at 2 17 42 PM](https://user-images.githubusercontent.com/6771652/228205682-a412dc0b-5e9d-4390-9edc-b79c0320277d.png)

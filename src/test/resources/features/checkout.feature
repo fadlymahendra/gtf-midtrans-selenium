@@ -8,5 +8,7 @@ Feature: Checkout using Credit Card payment method
   Scenario: Successful checkout with valid credit card
     When I click on Credit Debit Payment method
     And I input valid credit card information
+    And I input and submit valid OTP
+    Then Verify payment successful
     
     

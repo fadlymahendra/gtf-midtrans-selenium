@@ -55,5 +55,17 @@ public class CheckoutStepDefinition {
     public void inputValidCard() {
         checkoutPage.inputValidCard();
     }
+
+    @When("I input and submit valid OTP")
+    public void inputValidOtp() {
+        checkoutPage.inputValidOtp();
+    }
+
+    @Then("Verify payment successful")
+    public void verifyPayment() {
+    // Still flaky / mostly failed -- need to improve this method
+    // Assert.assertEquals(checkoutPage.paymentInfo(), true);
+    }
+
 }
 

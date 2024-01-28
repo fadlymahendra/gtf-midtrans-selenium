@@ -3,6 +3,7 @@ screenshots/
 screenshot/
 test-output/
 build/
+.vscode/settings.json
 
 application.log
 ##############################
